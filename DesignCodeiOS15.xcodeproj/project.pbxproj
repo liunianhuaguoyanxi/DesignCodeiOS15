@@ -20,6 +20,13 @@
 		DB254E7F27D5E4B700398AF9 /* DesignCodeiOS15UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB254E7E27D5E4B700398AF9 /* DesignCodeiOS15UITests.swift */; };
 		DB254E8127D5E4B700398AF9 /* DesignCodeiOS15UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB254E8027D5E4B700398AF9 /* DesignCodeiOS15UITestsLaunchTests.swift */; };
 		DB254E8E27D5FD9D00398AF9 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB254E8D27D5FD9D00398AF9 /* Styles.swift */; };
+		DB254E9027D84ADC00398AF9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB254E8F27D84ADC00398AF9 /* HomeView.swift */; };
+		DB254E9727D851DA00398AF9 /* FeaturedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB254E9627D851DA00398AF9 /* FeaturedItem.swift */; };
+		DB254E9927D8543E00398AF9 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB254E9827D8543E00398AF9 /* NavigationBar.swift */; };
+		DB254E9B27D87E0A00398AF9 /* PreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB254E9A27D87E0A00398AF9 /* PreferenceKeys.swift */; };
+		DB254E9D27D8848B00398AF9 /* AnimatableFontModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB254E9C27D8848B00398AF9 /* AnimatableFontModifier.swift */; };
+		DB254E9F27D889AF00398AF9 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB254E9E27D889AF00398AF9 /* Course.swift */; };
+		DB254EA327D8958C00398AF9 /* MatchedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB254EA227D8958C00398AF9 /* MatchedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +63,13 @@
 		DB254E7E27D5E4B700398AF9 /* DesignCodeiOS15UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCodeiOS15UITests.swift; sourceTree = "<group>"; };
 		DB254E8027D5E4B700398AF9 /* DesignCodeiOS15UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCodeiOS15UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DB254E8D27D5FD9D00398AF9 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		DB254E8F27D84ADC00398AF9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		DB254E9627D851DA00398AF9 /* FeaturedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItem.swift; sourceTree = "<group>"; };
+		DB254E9827D8543E00398AF9 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		DB254E9A27D87E0A00398AF9 /* PreferenceKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeys.swift; sourceTree = "<group>"; };
+		DB254E9C27D8848B00398AF9 /* AnimatableFontModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableFontModifier.swift; sourceTree = "<group>"; };
+		DB254E9E27D889AF00398AF9 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		DB254EA227D8958C00398AF9 /* MatchedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,13 +121,11 @@
 			isa = PBXGroup;
 			children = (
 				DB254E6327D5E4B500398AF9 /* DesignCodeiOS15App.swift */,
-				DB1D00A627D730C20002CC65 /* HexagonView.swift */,
-				DB254E6527D5E4B500398AF9 /* ContentView.swift */,
-				DB1D00A427D6F0CB0002CC65 /* AccountView.swift */,
-				DB1D00AA27D755680002CC65 /* TabBar.swift */,
-				DB1D00AC27D75C500002CC65 /* Tab.swift */,
-				DB1D00A827D737570002CC65 /* BlobView.swift */,
-				DB254E8D27D5FD9D00398AF9 /* Styles.swift */,
+				DB254E9327D84D9700398AF9 /* Components */,
+				DB254E9127D84D6A00398AF9 /* Navigation */,
+				DB254E9227D84D8800398AF9 /* Views */,
+				DB254E9427D84E1B00398AF9 /* Model */,
+				DB254E9527D84E4100398AF9 /* Styles */,
 				DB254E6727D5E4B700398AF9 /* Assets.xcassets */,
 				DB254E6927D5E4B700398AF9 /* Preview Content */,
 			);
@@ -143,6 +155,55 @@
 				DB254E8027D5E4B700398AF9 /* DesignCodeiOS15UITestsLaunchTests.swift */,
 			);
 			path = DesignCodeiOS15UITests;
+			sourceTree = "<group>";
+		};
+		DB254E9127D84D6A00398AF9 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				DB1D00AA27D755680002CC65 /* TabBar.swift */,
+				DB254E6527D5E4B500398AF9 /* ContentView.swift */,
+				DB254E9827D8543E00398AF9 /* NavigationBar.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		DB254E9227D84D8800398AF9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DB1D00A427D6F0CB0002CC65 /* AccountView.swift */,
+				DB254E8F27D84ADC00398AF9 /* HomeView.swift */,
+				DB254EA227D8958C00398AF9 /* MatchedView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DB254E9327D84D9700398AF9 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				DB1D00A827D737570002CC65 /* BlobView.swift */,
+				DB1D00A627D730C20002CC65 /* HexagonView.swift */,
+				DB254E9627D851DA00398AF9 /* FeaturedItem.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		DB254E9427D84E1B00398AF9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DB1D00AC27D75C500002CC65 /* Tab.swift */,
+				DB254E9A27D87E0A00398AF9 /* PreferenceKeys.swift */,
+				DB254E9E27D889AF00398AF9 /* Course.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DB254E9527D84E4100398AF9 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				DB254E8D27D5FD9D00398AF9 /* Styles.swift */,
+				DB254E9C27D8848B00398AF9 /* AnimatableFontModifier.swift */,
+			);
+			path = Styles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,14 +336,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB254E9027D84ADC00398AF9 /* HomeView.swift in Sources */,
 				DB254E8E27D5FD9D00398AF9 /* Styles.swift in Sources */,
 				DB1D00A727D730C20002CC65 /* HexagonView.swift in Sources */,
 				DB1D00A527D6F0CB0002CC65 /* AccountView.swift in Sources */,
+				DB254EA327D8958C00398AF9 /* MatchedView.swift in Sources */,
 				DB1D00AD27D75C500002CC65 /* Tab.swift in Sources */,
+				DB254E9927D8543E00398AF9 /* NavigationBar.swift in Sources */,
 				DB1D00A927D737570002CC65 /* BlobView.swift in Sources */,
 				DB254E6627D5E4B500398AF9 /* ContentView.swift in Sources */,
+				DB254E9F27D889AF00398AF9 /* Course.swift in Sources */,
 				DB254E6427D5E4B500398AF9 /* DesignCodeiOS15App.swift in Sources */,
+				DB254E9727D851DA00398AF9 /* FeaturedItem.swift in Sources */,
+				DB254E9B27D87E0A00398AF9 /* PreferenceKeys.swift in Sources */,
 				DB1D00AB27D755680002CC65 /* TabBar.swift in Sources */,
+				DB254E9D27D8848B00398AF9 /* AnimatableFontModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

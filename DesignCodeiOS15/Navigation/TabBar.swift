@@ -8,43 +8,28 @@
 import SwiftUI
 
 struct TabBar: View {
-    @State var selectedTab :Tab = .home
+    @AppStorage("selectedTab") var selectedTab :Tab = .home
     @State var color :Color = .teal
     @State var tabItemWidth:CGFloat =  0
     
     var body: some View {
-        ZStack(alignment: .bottom) {
-            Group{
-                switch selectedTab {
-                case .home:
-                    ContentView()
-                case .explore:
-                    AccountView()
-                case .notification:
-                    AccountView()
-                case .library:
-                    AccountView()
-                }
-            }
-            .frame(maxWidth: .infinity, maxHeight:.infinity )
-            HStack
-            {
-                buttons
-            }
-            .padding(.horizontal,8)
-            .padding(.top,14)
-            .frame(height: 88, alignment: .top)
-            .background(.ultraThinMaterial,in: RoundedRectangle(cornerRadius: 34, style: .continuous))
-            .background(
-                background
-            )
-            .overlay(
-                overlay
-            )
-            .strokeStyle(cornerRadius: 34)
-            .frame(maxHeight:.infinity,alignment: .bottom)
-            .ignoresSafeArea()
+        HStack
+        {
+            buttons
         }
+        .padding(.horizontal,8)
+        .padding(.top,14)
+        .frame(height: 88, alignment: .top)
+        .background(.ultraThinMaterial,in: RoundedRectangle(cornerRadius: 34, style: .continuous))
+        .background(
+            background
+        )
+        .overlay(
+            overlay
+        )
+        .strokeStyle(cornerRadius: 34)
+        .frame(maxHeight:.infinity,alignment: .bottom)
+        .ignoresSafeArea()
 
     }
     var buttons : some View {
@@ -72,7 +57,7 @@ struct TabBar: View {
                 .blendMode(selectedTab == item.tab ? .overlay : .normal)
                 .overlay(
                     GeometryReader{ proxy in
-                        Text("\(proxy.size.width)")
+//                        Text("\(proxy.size.width)")
 //                        tabItemWidth = proxy.size.width
                     Color.clear.preference(key: TabPrefenenceKey.self, value: proxy.size.width)
                 }
