@@ -32,6 +32,10 @@
 		DB254E9F27D889AF00398AF9 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB254E9E27D889AF00398AF9 /* Course.swift */; };
 		DB254EA327D8958C00398AF9 /* MatchedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB254EA227D8958C00398AF9 /* MatchedView.swift */; };
 		DB254EA527D9E46F00398AF9 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB254EA427D9E46F00398AF9 /* Model.swift */; };
+		DB254EA727DB1F8F00398AF9 /* Suggestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB254EA627DB1F8F00398AF9 /* Suggestion.swift */; };
+		DBE1C45127DB31AE00C111F4 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE1C45027DB31AE00C111F4 /* SignUpView.swift */; };
+		DBE1C45527DB371100C111F4 /* AngularButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE1C45427DB371100C111F4 /* AngularButtonStyle.swift */; };
+		DBE1C45727DB433100C111F4 /* InputStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE1C45627DB433100C111F4 /* InputStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +84,10 @@
 		DB254E9E27D889AF00398AF9 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 		DB254EA227D8958C00398AF9 /* MatchedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedView.swift; sourceTree = "<group>"; };
 		DB254EA427D9E46F00398AF9 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		DB254EA627DB1F8F00398AF9 /* Suggestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Suggestion.swift; sourceTree = "<group>"; };
+		DBE1C45027DB31AE00C111F4 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		DBE1C45427DB371100C111F4 /* AngularButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngularButtonStyle.swift; sourceTree = "<group>"; };
+		DBE1C45627DB433100C111F4 /* InputStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +193,7 @@
 				DB254EA227D8958C00398AF9 /* MatchedView.swift */,
 				8F1C547227D8D9380008DE67 /* CourseView.swift */,
 				8FD8179627DA2ACC00A7D928 /* SearchView.swift */,
+				DBE1C45027DB31AE00C111F4 /* SignUpView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -207,6 +216,7 @@
 				DB254E9A27D87E0A00398AF9 /* PreferenceKeys.swift */,
 				DB254E9E27D889AF00398AF9 /* Course.swift */,
 				DB254EA427D9E46F00398AF9 /* Model.swift */,
+				DB254EA627DB1F8F00398AF9 /* Suggestion.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -217,6 +227,8 @@
 				DB254E8D27D5FD9D00398AF9 /* Styles.swift */,
 				DB254E9C27D8848B00398AF9 /* AnimatableFontModifier.swift */,
 				8F1C547427D8E3240008DE67 /* Animations.swift */,
+				DBE1C45427DB371100C111F4 /* AngularButtonStyle.swift */,
+				DBE1C45627DB433100C111F4 /* InputStyle.swift */,
 			);
 			path = Styles;
 			sourceTree = "<group>";
@@ -356,6 +368,7 @@
 				DB254E8E27D5FD9D00398AF9 /* Styles.swift in Sources */,
 				8F1C547327D8D9380008DE67 /* CourseView.swift in Sources */,
 				DB1D00A727D730C20002CC65 /* HexagonView.swift in Sources */,
+				DB254EA727DB1F8F00398AF9 /* Suggestion.swift in Sources */,
 				DB1D00A527D6F0CB0002CC65 /* AccountView.swift in Sources */,
 				DB254EA327D8958C00398AF9 /* MatchedView.swift in Sources */,
 				DB1D00AD27D75C500002CC65 /* Tab.swift in Sources */,
@@ -366,8 +379,11 @@
 				DB254E6427D5E4B500398AF9 /* DesignCodeiOS15App.swift in Sources */,
 				8F1C547127D8D7530008DE67 /* CourseItem.swift in Sources */,
 				DB254E9727D851DA00398AF9 /* FeaturedItem.swift in Sources */,
+				DBE1C45127DB31AE00C111F4 /* SignUpView.swift in Sources */,
+				DBE1C45527DB371100C111F4 /* AngularButtonStyle.swift in Sources */,
 				8F1C547527D8E3240008DE67 /* Animations.swift in Sources */,
 				DB254E9B27D87E0A00398AF9 /* PreferenceKeys.swift in Sources */,
+				DBE1C45727DB433100C111F4 /* InputStyle.swift in Sources */,
 				DB254EA527D9E46F00398AF9 /* Model.swift in Sources */,
 				DB1D00AB27D755680002CC65 /* TabBar.swift in Sources */,
 				DB254E9D27D8848B00398AF9 /* AnimatableFontModifier.swift in Sources */,
