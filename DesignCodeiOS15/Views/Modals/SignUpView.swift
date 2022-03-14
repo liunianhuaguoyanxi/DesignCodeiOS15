@@ -20,6 +20,7 @@ struct SignUpView: View {
     @State var emailY: CGFloat = 0
     @State var passwordY: CGFloat = 0
     @State var circleColor: Color = .blue
+    @EnvironmentObject var model: Model
     
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
@@ -62,6 +63,7 @@ struct SignUpView: View {
             .buttonStyle(.angular)
             .tint(.accentColor)
             .controlSize(.large)
+            .shadow(color: Color("Shadow").opacity(0.2), radius: 30, x: 0, y: 30)
             
             Group {
                 Text("By clicking on ")
@@ -73,7 +75,9 @@ struct SignUpView: View {
                 
                 HStack {
                     Text("Already have an account?")
-                    Button{} label: {
+                    Button{
+                        model.seletedModal = .signIn
+                    } label: {
                            Text("**Sign in**")
                     }
 
@@ -96,9 +100,9 @@ struct SignUpView: View {
         )
         .coordinateSpace(name: "container")
         .strokeStyle(cornerRadius: 30)
-        .shadow(color: Color("Shadow").opacity(0.2), radius: 30, x: 0, y: 30)
-        .padding(20)
-        .background(Image("Blob 1").offset(x:200 ,y:-100))
+//        .shadow(color: Color("Shadow").opacity(0.2), radius: 30, x: 0, y: 30)
+//        .padding(20)
+//        .background(Image("Blob 1").offset(x:200 ,y:-100))
         .onChange(of: focuseField){
             value in
             withAnimation{
@@ -122,6 +126,10 @@ struct SignUpView: View {
 
 struct SignUpView_Previews: PreviewProvider {
     static var previews: some View {
-        SignUpView()
+        ZStack {
+            SignUpView()
+                .preferredColorScheme(.light)
+                .environmentObject(Model())
+        }
     }
 }
