@@ -54,7 +54,7 @@ struct ContentView: View {
             }
         }
         .safeAreaInset(edge: .bottom) {
-            Color.blue.frame(height: 44)
+            VStack {}.frame(height: 44)
         }
     }
 }

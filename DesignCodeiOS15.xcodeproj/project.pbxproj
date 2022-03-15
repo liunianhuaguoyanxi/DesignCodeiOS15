@@ -38,6 +38,8 @@
 		DBE1C45127DB31AE00C111F4 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE1C45027DB31AE00C111F4 /* SignUpView.swift */; };
 		DBE1C45527DB371100C111F4 /* AngularButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE1C45427DB371100C111F4 /* AngularButtonStyle.swift */; };
 		DBE1C45727DB433100C111F4 /* InputStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE1C45627DB433100C111F4 /* InputStyle.swift */; };
+		DBE1C45927E0819200C111F4 /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE1C45827E0819200C111F4 /* AvatarView.swift */; };
+		DBE1C45B27E091BC00C111F4 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE1C45A27E091BC00C111F4 /* Address.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +94,8 @@
 		DBE1C45027DB31AE00C111F4 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		DBE1C45427DB371100C111F4 /* AngularButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngularButtonStyle.swift; sourceTree = "<group>"; };
 		DBE1C45627DB433100C111F4 /* InputStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputStyle.swift; sourceTree = "<group>"; };
+		DBE1C45827E0819200C111F4 /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
+		DBE1C45A27E091BC00C111F4 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,6 +223,7 @@
 				DB1D00A627D730C20002CC65 /* HexagonView.swift */,
 				DB254E9627D851DA00398AF9 /* FeaturedItem.swift */,
 				8F1C547027D8D7530008DE67 /* CourseItem.swift */,
+				DBE1C45827E0819200C111F4 /* AvatarView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -231,6 +236,7 @@
 				DB254E9E27D889AF00398AF9 /* Course.swift */,
 				DB254EA427D9E46F00398AF9 /* Model.swift */,
 				DB254EA627DB1F8F00398AF9 /* Suggestion.swift */,
+				DBE1C45A27E091BC00C111F4 /* Address.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -383,7 +389,9 @@
 				8F1C547327D8D9380008DE67 /* CourseView.swift in Sources */,
 				DB1D00A727D730C20002CC65 /* HexagonView.swift in Sources */,
 				DB254EA727DB1F8F00398AF9 /* Suggestion.swift in Sources */,
+				DBE1C45B27E091BC00C111F4 /* Address.swift in Sources */,
 				DB1D00A527D6F0CB0002CC65 /* AccountView.swift in Sources */,
+				DBE1C45927E0819200C111F4 /* AvatarView.swift in Sources */,
 				DB254EA327D8958C00398AF9 /* MatchedView.swift in Sources */,
 				DB1D00AD27D75C500002CC65 /* Tab.swift in Sources */,
 				DB254E9927D8543E00398AF9 /* NavigationBar.swift in Sources */,
