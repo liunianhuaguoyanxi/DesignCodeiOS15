@@ -40,6 +40,7 @@
 		DBE1C45727DB433100C111F4 /* InputStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE1C45627DB433100C111F4 /* InputStyle.swift */; };
 		DBE1C45927E0819200C111F4 /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE1C45827E0819200C111F4 /* AvatarView.swift */; };
 		DBE1C45B27E091BC00C111F4 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE1C45A27E091BC00C111F4 /* Address.swift */; };
+		DBFC174727E1DE6A00F1C05E /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFC174627E1DE6A00F1C05E /* Coin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +97,7 @@
 		DBE1C45627DB433100C111F4 /* InputStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputStyle.swift; sourceTree = "<group>"; };
 		DBE1C45827E0819200C111F4 /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
 		DBE1C45A27E091BC00C111F4 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		DBFC174627E1DE6A00F1C05E /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -237,6 +239,7 @@
 				DB254EA427D9E46F00398AF9 /* Model.swift */,
 				DB254EA627DB1F8F00398AF9 /* Suggestion.swift */,
 				DBE1C45A27E091BC00C111F4 /* Address.swift */,
+				DBFC174627E1DE6A00F1C05E /* Coin.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -398,6 +401,7 @@
 				DB1D00A927D737570002CC65 /* BlobView.swift in Sources */,
 				DB254E6627D5E4B500398AF9 /* ContentView.swift in Sources */,
 				8FC1DCC727DF647A00F1C7DB /* SignInView.swift in Sources */,
+				DBFC174727E1DE6A00F1C05E /* Coin.swift in Sources */,
 				DB254E9F27D889AF00398AF9 /* Course.swift in Sources */,
 				DB254E6427D5E4B500398AF9 /* DesignCodeiOS15App.swift in Sources */,
 				8F1C547127D8D7530008DE67 /* CourseItem.swift in Sources */,
